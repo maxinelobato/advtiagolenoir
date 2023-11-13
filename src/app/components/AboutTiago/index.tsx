@@ -16,7 +16,7 @@ export default function AboutTiago() {
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
           <Image
-            className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+            className="object-cover w-full h-56 rounded-xl shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             alt="Tiago About"
             src={tiago}
             width={600}

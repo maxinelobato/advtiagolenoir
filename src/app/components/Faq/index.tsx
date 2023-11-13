@@ -6,7 +6,7 @@ export default function Faq() {
         <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
               <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-semibold tracking-tight text-stone-950 sm:text-5xl sm:leading-none">
-                Perguntas e respostas
+                Dúvidas Frequentes
               </h1>
             </div>
           </div>
