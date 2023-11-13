@@ -3,7 +3,7 @@ export default function Faq() {
     <>
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto px-4 pb-16 md:px-8">
-        <div className="mx-auto text-center">
+          <div className="mx-auto text-center">
             <div className="space-y-5 max-w-full mx-auto text-center px-4 pt-8">
               <h1 className="uppercase py-4 mb-5 font-sans text-4xl font-semibold tracking-tight text-stone-950 sm:text-5xl sm:leading-none">
                 Dúvidas Frequentes
@@ -14,7 +14,7 @@ export default function Faq() {
             <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Como funciona o atendimento?
                 </h2>
 
                 <span className="shrink-0 rounded-full bg-white p-1.5 text-stone-950 sm:p-3">
@@ -34,17 +34,25 @@ export default function Faq() {
               </summary>
 
               <p className="mt-4 leading-relaxed text-white">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Depois de clicar nos botões de contato da página, você será
+                redirecionado para o WhatsApp comercial do escritório para
+                conversar com um advogado da nossa equipe ou o Dr. Tiago.
+              </p>
+              <p className="mt-4 leading-relaxed text-white">
+                Esse profissional conversará com você sobre seu problema para
+                entendê-lo e concluir sobre a viabilidade de sua atuação. Mais
+                elementos serão solicitados se considerarmos necessários para
+                concluir essa análise.
+              </p>
+              <p className="mt-4 leading-relaxed text-white">
+                Finalmente, propomos a solução para o seu problema.
               </p>
             </details>
 
             <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Quanto vou gastar?
                 </h2>
 
                 <span className="shrink-0 rounded-full bg-white p-1.5 text-stone-950 sm:p-3">
@@ -64,17 +72,19 @@ export default function Faq() {
               </summary>
 
               <p className="mt-4 leading-relaxed text-white">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Somente depois de conversar com você e entender seu problema
+                seremos capazes de formular uma proposta adequada à sua
+                necessidade.
+              </p>
+              <p className="mt-4 leading-relaxed text-white">
+                Exponha seu caso para nossa equipe.
               </p>
             </details>
-            
+
             <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing?
+                  Preciso de um advogado para resolver meu problema?
                 </h2>
 
                 <span className="shrink-0 rounded-full bg-white p-1.5 text-stone-950 sm:p-3">
@@ -94,10 +104,12 @@ export default function Faq() {
               </summary>
 
               <p className="mt-4 leading-relaxed text-white">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-                veritatis molestias culpa in, recusandae laboriosam neque
-                aliquid libero nesciunt voluptate dicta quo officiis explicabo
-                consequuntur distinctio corporis earum similique!
+                Sim, o advogado é o único profissional competente para
+                assessorar você quando o problema é jurídico.
+              </p>
+              <p className="mt-4 leading-relaxed text-white">
+                Em se tratando de processos criminais, é obrigatória a presença
+                de um advogado na sua defesa.
               </p>
             </details>
           </div>
