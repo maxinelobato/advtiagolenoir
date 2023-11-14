@@ -7,46 +7,44 @@ export default function Header() {
     <>
       <section className="relative max-h-[87vh] bg-no-repeat bg-center bg-cover bg-[url(https://img.freepik.com/fotos-gratis/criminoso-algemado_53876-139638.jpg?w=1060&t=st=1699825563~exp=1699826163~hmac=7c8fced5e11338e3387fbf16321ad6dbb9d564fc6988b9586f471a353c3d425f)]">
         <div className="absolute inset-0 bg-stone-950/80"></div>
-        <div className="max-w-screen-xl px-4 py-20 relative mx-auto lg:h-screen lg:items-center lg:px-8 sm:px-6 lg:flex">
+        <div className="max-w-screen-xl px-4 py-20 relative mx-auto lg:flex lg:items-center lg:h-screen lg:px-8 sm:px-6">
           <div className="max-w-screen-2xl text-center sm:text-left">
             <h1
               className="text-3xl sm:text-5xl text-white font-extrabold"
               style={{ textShadow: "0px 0px 8px #000000" }}
             >
-              Precisa de um Advogado Penal
-              <strong
-                className="block font-extrabold text-stone-300"
-                style={{ textShadow: "0px 0px 8px #000000" }}
-              >
-                para Responder à sua chamada?
-              </strong>
+              Precisa de um Advogado Criminalista?
             </h1>
 
             <p
-              className="max-w-lg sm:text-xl/relaxed pt-4 text-white "
+              className="max-w-2xl font-bold sm:text-xl/relaxed pt-4 text-white "
               style={{ textShadow: "0px 0px 8px #000000" }}
             >
-              18 Anos de Defesa Jurídica{" "}
-              <span className="text-yellow-400">Experiente na Área Penal</span>
+              Mais de 18 anos de{" "}
+              <span className="text-yellow-400">experiência na área penal</span>
             </p>
 
             <p
-              className="text-white max-w-lg sm:text-xl/relaxed"
+              className="text-white font-bold max-w-lg sm:text-xl/relaxed"
               style={{ textShadow: "0px 0px 8px #000000" }}
             >
               Atendimento em{" "}
-              <span className="text-yellow-400">Belo Horizonte</span>
+              <span className="text-yellow-400">todo Brasil</span>
             </p>
 
             <div className="py-8 sm:py-10">
               <ButtonHero />
-              <div className="py-8 sm:py-10">
-                <Image
-                  className="w-48 mx-auto sm:mx-px md:w-auto lg:w-72"
-                  src={lenoir}
-                  sizes="100vw"
-                  alt="Logo Lenoir"
-                />
+              <div className="sm:flex sm:items-center sm:justify-between">
+                <div className="flex justify-center sm:justify-start">
+                <div className="py-8 sm:py-10">
+                    <Image
+                      className="w-48 md:w-auto lg:w-64"
+                      src={lenoir}
+                      sizes="100vw"
+                      alt="Logo Lenoir"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

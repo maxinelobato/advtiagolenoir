@@ -35,15 +35,13 @@ export default function AboutTiago() {
               </span>
             </h2>
             <p className="pr-5 mb-5 font-semibold text-sm text-white md:text-lg">
-              Tiago Lenoir é advogado criminalista com mais de 18 anos de
-              experiência na área penal. Professor Universitário. Mestre em
-              Direito e especialista em Criminologia pela Universidade de
-              Itaúna.
+              Advogado criminalista com mais de 18 anos de experiência na área
+              penal. Atuou em mais de 350 plenários de Tribunal do Juri e
+              diversos casos de repercussão nacional.
             </p>
             <p className="pr-5 mb-5 font-semibold text-sm text-white md:text-lg">
-              Especialista em Criminologia pelo IEC-PUC MINAS. Graduado em
-              Direito pela PUC Minas. Auditor do Tribunal de Justiça Desportiva
-              da FMF.
+              Professor Universitário e Mestre em Direito e especialista em
+              Criminologia.
             </p>
             <div className="flex items-center mt-4 md:mt-8">
               <ButtonHero />
