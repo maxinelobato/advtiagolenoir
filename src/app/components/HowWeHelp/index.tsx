@@ -33,6 +33,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -56,6 +57,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -79,6 +81,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -102,6 +105,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -125,6 +129,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -148,6 +153,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -171,6 +177,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -194,6 +201,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -217,6 +225,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">
@@ -240,6 +249,7 @@ export default function HowWeHelp() {
                     className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
                     width={300}
                     height={300}
+                    loading="lazy"
                   />
                 </div>
                 <div className="p-4">

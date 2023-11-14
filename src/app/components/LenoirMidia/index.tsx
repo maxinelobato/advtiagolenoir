@@ -26,7 +26,6 @@ export default function LenoirMidia() {
                     className="h-auto w-full object-cover"
                     width={600}
                     height={600}
-                    quality={75}
                     loading="lazy"
                   />
                   <div className="p-4 sm:p-6">
@@ -61,7 +60,6 @@ export default function LenoirMidia() {
                     className="h-auto w-full object-cover"
                     width={600}
                     height={600}
-                    quality={75}
                     loading="lazy"
                   />
                   <div className="p-4 sm:p-6">
@@ -93,7 +91,6 @@ export default function LenoirMidia() {
                     className="h-auto w-full object-cover"
                     width={600}
                     height={600}
-                    quality={75}
                     loading="lazy"
                   />
                   <div className="p-4 sm:p-6">
