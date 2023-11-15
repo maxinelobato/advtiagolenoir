@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import Script from "next/script";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "O escritório Lenoir Advogados Associados atende pessoa física e empresas em diversos Estados do Brasil. Nossa equipe está apta a trabalhar desde questões mais simples, até casos complexos que exigem o envolvimento de profissionais de diversas áreas.",
 };
 
-// const GTM_ID = "";
+const GTM_ID = "PLMR26DV";
 
 export default function RootLayout({
   children,
@@ -24,7 +24,7 @@ export default function RootLayout({
         name="facebook-domain-verification"
         content="0pp7qrk8a62xbewr980vkh2xrevbua"
       /> */}
-      {/* <Script id="google-tag-manager" strategy="afterInteractive">
+      <Script id="google-tag-manager" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -32,13 +32,13 @@ export default function RootLayout({
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
-      </Script> */}
+      </Script>
       <body className={inter.className}>
-        {/* <noscript
+        <noscript
           dangerouslySetInnerHTML={{
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
           }}
-        /> */}
+        />
         {children}
       </body>
     </html>
