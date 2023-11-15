@@ -11,7 +11,7 @@ export default function Faq() {
             </div>
           </div>
           <div className="space-y-4">
-            <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-stone-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
                   Como funciona o atendimento?
@@ -49,7 +49,7 @@ export default function Faq() {
               </p>
             </details>
 
-            <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-stone-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
                   Quanto vou gastar?
@@ -81,7 +81,7 @@ export default function Faq() {
               </p>
             </details>
 
-            <details className="group rounded-2xl bg-stone-900 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <details className="group rounded-2xl bg-stone-950 p-6 [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                 <h2 className="text-lg font-bold text-white">
                   Preciso de um advogado para resolver meu problema?

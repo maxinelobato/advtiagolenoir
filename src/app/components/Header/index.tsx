@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <section className="relative max-h-[80vh] bg-no-repeat bg-center bg-cover bg-bg1 lg:max-h-[87vh] lg:bg-cover">
         <div className="absolute inset-0 bg-gradient-to-r from-stone-950 to-transparent"></div>
-        <div className="max-w-screen-xl px-4 py-10 relative mx-auto lg:py-5 lg:flex lg:items-center lg:h-screen lg:px-8 sm:px-6">
+        <div className="relative max-w-screen-xl mx-auto px-4 py-10 lg:py-5 lg:flex lg:items-center lg:h-screen lg:px-8 sm:px-6">
           <div className="max-w-screen-2xl text-center sm:text-left">
             <div className="pt-8 sm:pt-0">
               <h1

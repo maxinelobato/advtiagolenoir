@@ -50,7 +50,7 @@ export default function Footer() {
               <div className="flex justify-center lg:justify-start">
                 <div className="text-center sm:text-left">
                   <p className="text-lg font-medium text-white">
-                    Nossos contatos
+                    Nossos Contatos
                   </p>
                   <ul className="mt-8 space-y-6 text-sm">
                     <li>
@@ -107,8 +107,7 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
-                        Av. Barão Homem de Melo, 4500 / sl. 1411 – Estoril •
-                        Belo Horizonte-MG
+                        Atendimento em Todo Brasil
                       </address>
                     </li>
                   </ul>
