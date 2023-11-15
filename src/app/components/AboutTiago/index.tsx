@@ -30,9 +30,9 @@ export default function AboutTiago() {
             </p>
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
               Dr. Tiago Lenoir
-              <span className="inline-block text-white font-light pt-4">
+              {/* <span className="inline-block text-white font-light pt-4">
                 OAB/MG 102.238
-              </span>
+              </span> */}
             </h2>
             <p className="pr-5 mb-5 font-semibold text-sm text-white md:text-lg">
               Advogado criminalista com mais de 18 anos de experiência na área
