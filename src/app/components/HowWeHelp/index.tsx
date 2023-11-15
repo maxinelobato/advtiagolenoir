@@ -24,244 +24,224 @@ export default function HowWeHelp() {
             </div>
           </div>
           <div className="relative mt-6">
-            <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard1}
-                    className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+            <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard1}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Defesa em Ação Penal
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard8}
-                    className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard8}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Tribunal do Júri
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard2}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard2}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Atuação em Inquérito Policial
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard3}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard3}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Pedido de Liberdade
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard4}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard4}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Habeas Corpus
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard5}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard5}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Audiência de Custódia
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard6}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard6}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Prisão em Flagrante
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard7}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard7}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Progressão de Regime Carcerário
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard9}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard9}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Assistência à Acusação
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                <div className="flex items-center justify-center">
-                  <Image
-                    alt="Lava"
-                    src={imgcard10}
-                    className="h-56 w-full rounded-xl object-cover shadow-xl transition hover:grayscale-[100%]"
-                    width={300}
-                    height={300}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4">
-                  <a href="#">
-                    <h3 className="text-2xl font-bold text-center text-gray-900">
+              <li>
+                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                  <figure>
+                    <Image
+                      alt="Card"
+                      src={imgcard10}
+                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                      width={300}
+                      height={300}
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div className="card-body items-center text-center">
+                    <h2 className="card-title text-stone-950 font-bold">
                       Recursos aos Tribunais Superiores
-                    </h3>
-                  </a>
-                </div>
-                <div className="flex items-center justify-center">
-                  <div className="pt-4 pb-4">
-                    <ButtonSpecialts />
+                    </h2>
+                    <div className="card-actions justify-center pt-4">
+                      <ButtonSpecialts />
+                    </div>
                   </div>
                 </div>
               </li>
