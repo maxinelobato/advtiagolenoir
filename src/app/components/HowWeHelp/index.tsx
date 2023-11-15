@@ -1,17 +1,50 @@
 import Image from "next/image";
 import ButtonSpecialts from "../Buttons/buttonspecialts";
-import imgcard1 from "/public/imgcard1.webp";
-import imgcard2 from "/public/imgcard2.webp";
-import imgcard3 from "/public/imgcard3.webp";
-import imgcard4 from "/public/imgcard4.webp";
-import imgcard5 from "/public/imgcard5.webp";
-import imgcard6 from "/public/imgcard6.webp";
-import imgcard7 from "/public/imgcard7.webp";
-import imgcard8 from "/public/imgcard8.webp";
-import imgcard9 from "/public/imgcard9.webp";
-import imgcard10 from "/public/imgcard10.webp";
 
 export default function HowWeHelp() {
+  const features = [
+    {
+      imgURL: "/imgcard1.webp",
+      title: "Defesa em Ação Penal",
+    },
+    {
+      imgURL: "/imgcard8.webp",
+      title: "Tribunal do Júri",
+    },
+    {
+      imgURL: "/imgcard2.webp",
+      title: "Atuação em Inquérito Policial",
+    },
+    {
+      imgURL: "/imgcard3.webp",
+      title: "Pedido de Liberdade",
+    },
+    {
+      imgURL: "/imgcard4.webp",
+      title: "Habeas Corpus",
+    },
+    {
+      imgURL: "/imgcard5.webp",
+      title: "Audiência de Custódia",
+    },
+    {
+      imgURL: "/imgcard6.webp",
+      title: "Prisão em Flagrante",
+    },
+    {
+      imgURL: "/imgcard7.webp",
+      title: "Progressão de Regime Carcerário",
+    },
+    {
+      imgURL: "/imgcard9.webp",
+      title: "Assistência à Acusação",
+    },
+    {
+      imgURL: "/imgcard10.webp",
+      title: "Recursos aos Tribunais Superiores",
+    },
+  ];
+
   return (
     <>
       <div className="bg-white">
@@ -25,226 +58,30 @@ export default function HowWeHelp() {
           </div>
           <div className="relative mt-6">
             <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard1}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Defesa em Ação Penal
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
+              {features.map((item, idx) => (
+                <li key={idx}>
+                  <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
+                    <figure>
+                      <Image
+                        alt="Card"
+                        src={item.imgURL}
+                        className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
+                        width={300}
+                        height={300}
+                        loading="lazy"
+                      />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                      <h2 className="card-title text-stone-950 font-bold">
+                        {item.title}
+                      </h2>
+                      <div className="card-actions justify-center pt-4">
+                        <ButtonSpecialts />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard8}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Tribunal do Júri
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard2}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Atuação em Inquérito Policial
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard3}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Pedido de Liberdade
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard4}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Habeas Corpus
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard5}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Audiência de Custódia
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard6}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Prisão em Flagrante
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard7}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Progressão de Regime Carcerário
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard9}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Assistência à Acusação
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="card w-auto rounded-xl shadow-2xl shadow-black/50 hover:ring-2 hover:ring-offset-1 hover:ring-stone-800 hover:transition-all">
-                  <figure>
-                    <Image
-                      alt="Card"
-                      src={imgcard10}
-                      className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
-                      width={300}
-                      height={300}
-                      loading="lazy"
-                    />
-                  </figure>
-                  <div className="card-body items-center text-center">
-                    <h2 className="card-title text-stone-950 font-bold">
-                      Recursos aos Tribunais Superiores
-                    </h2>
-                    <div className="card-actions justify-center pt-4">
-                      <ButtonSpecialts />
-                    </div>
-                  </div>
-                </div>
-              </li>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
