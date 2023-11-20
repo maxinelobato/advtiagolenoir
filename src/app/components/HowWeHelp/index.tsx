@@ -72,9 +72,9 @@ export default function HowWeHelp() {
                       />
                     </figure>
                     <div className="card-body items-center text-center">
-                      <h2 className="card-title text-stone-950 font-bold">
+                      <h1 className="card-title uppercase text-stone-950 font-extrabold">
                         {item.title}
-                      </h2>
+                      </h1>
                       <div className="card-actions justify-center pt-4">
                         <ButtonSpecialts />
                       </div>
