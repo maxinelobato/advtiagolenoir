@@ -66,9 +66,9 @@ export default function LenoirMidia() {
                         {item.time}
                       </time>
 
-                      <h3 className="mt-0.5 text-gray-900 text-sm sm:text-lg">
+                      <h1 className="mt-0.5 text-gray-900 text-sm sm:text-lg">
                         {item.title}
-                      </h3>
+                      </h1>
 
                       <p className="mt-2 line-clamp-3 text-xs/relaxed text-gray-500">
                         {item.desc}
