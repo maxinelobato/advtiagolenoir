@@ -2,7 +2,8 @@ export default function ButtonHero() {
   return (
     <>
       <a
-        href="https://api.whatsapp.com/send?phone=553191959959&text=Ol%C3%A1%2C%20Dr.%20Tiago!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
+        rel="preload"
+        href="https://api.whatsapp.com/send?phone=5531991959959&text=Ol%C3%A1%2C%20Dr.%20Tiago!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
         target="_blank"
       >
         <button className="uppercase btn btn-large border-transparent text-white hover:bg-transparent hover:backdrop-blur-lg hover:border-white hover:ring-2 hover:ring-white hover:text-white bg-[#34AF23] rounded-full sm:btn-sm md:btn-md lg:btn-lg duration-150 hover:-translate-x-0 hover:duration-300 hover:scale-110 hover:transition-all">

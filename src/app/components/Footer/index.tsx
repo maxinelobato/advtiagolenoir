@@ -8,6 +8,7 @@ export default function Footer() {
         <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
             <a
+              rel="preload"
               className="inline-block rounded-full bg-white p-2 text-stone-950 shadow transition hover:bg-white/90 sm:p-3 lg:p-4"
               href="#"
             >
@@ -74,6 +75,7 @@ export default function Footer() {
 
                     <li>
                       <a
+                        rel="preload"
                         className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                         href="/"
                       >
@@ -89,7 +91,7 @@ export default function Footer() {
                         </svg>
 
                         <span className="flex-1 text-white">
-                          (31) 3295-3748 | 99393-3748
+                          (31) 3295-3748 | 99195-9959
                         </span>
                       </a>
                     </li>
