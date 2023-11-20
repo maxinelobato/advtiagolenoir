@@ -77,7 +77,7 @@ export default function Footer() {
                       <a
                         rel="preload"
                         className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                        href="/"
+                        href="https://api.whatsapp.com/send?phone=5531991959959&text=Ol%C3%A1%2C%20Dr.%20Tiago!%20Vim%20pelo%20google%20e%20preciso%20de%20ajuda.%20Podemos%20conversar%3F%20"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,16 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
-                        Atendimento em Todo Brasil
+                        <a
+                          rel="preload"
+                          href="https://maps.app.goo.gl/3eLvjrFsf51J96TD7"
+                          style={{ textDecoration: "none" }}
+                          target="_blank"
+                          aria-label="Google Business"
+                        >
+                          Av. Barão Homem de Melo, 4500, Sala 1411
+                          <p>Estoril, Belo Horizonte/MG, 30494-270</p>
+                        </a>
                       </address>
                     </li>
                   </ul>
