@@ -29,6 +29,13 @@ export default function LenoirMidia() {
       time: "16 de Maio de 2023",
       desc: "Segundo o advogado Tiago Lenoir, que representa uma das vítimas, às sextas-feiras o padre dava dinheiro para funcionárias, depois de cometer abusos ao longo da semana.",
     },
+    {
+      imgURL: "/imgblog5.webp",
+      title:
+        "Advogado revela como negociou acordo para evitar que jogador envolvido em esquema de apostas virasse réu em operação do MP",
+      time: "12 de Maio de 2023",
+      desc: "Em entrevista à ESPN, o advogado Tiago Lenoir, que defende o lateral Moraes em meio às investigações da Operação Penalidade Máxima 2, revelou detalhes do acordo feito pelo jogador com o MP-GO (Ministério Público do Estado de Goiás) para que ele não se tornasse réu no processo.",
+    },
   ];
 
   return (
