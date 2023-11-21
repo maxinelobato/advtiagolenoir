@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
-import { Suspense } from "react";
+// import Script from "next/script";
+import GoogleTagManager from "@magicul/next-google-tag-manager";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +23,7 @@ export default function RootLayout({
         name="facebook-domain-verification"
         content="0pp7qrk8a62xbewr980vkh2xrevbua"
       /> */}
-      <Suspense>
-        <Script
+      {/* <Script
           id="gtag-base"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -36,20 +35,18 @@ export default function RootLayout({
             })(window,document,'script','dataLayer', 'GTM-PLMR26DV');
           `,
           }}
-        ></Script>
-      </Suspense>
+        ></Script> */}
       <body className={inter.className}>
-        <Suspense>{children}</Suspense>
-        <Suspense>
-          <noscript>
+        <GoogleTagManager id="GTM-PLMR26DV" />
+        {children}
+        {/* <noscript>
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=GTM-PLMR26DV`}
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}
             />
-          </noscript>
-        </Suspense>
+          </noscript> */}
       </body>
     </html>
   );
