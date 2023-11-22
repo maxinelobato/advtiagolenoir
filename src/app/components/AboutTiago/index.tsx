@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ButtonHero from "../Buttons/buttonhero";
-import tiago from "/public/drtiago.jpg";
+import tiago from "/public/drtiago.webp";
 
 export default function AboutTiago() {
   return (
@@ -21,6 +21,7 @@ export default function AboutTiago() {
             src={tiago}
             width={600}
             height={720}
+            loading="lazy"
           />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">

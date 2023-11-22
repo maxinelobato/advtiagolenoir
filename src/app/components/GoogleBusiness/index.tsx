@@ -95,18 +95,26 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-stone-800 sm:text-3xl">
-                        Cliente 1
-                      </p>
-
                       <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
-                        Depoimento Cliente 1
+                        Ótima experiência! Prestabilidade de serviço
+                        satisfatória e confiável. Obtive um excelente resultado
+                        ao que foi proposto de maneira responsável e eficiente.
+                        A qualidade da entrega laboral à demanda estabelecida,
+                        foi determinante para a obtenção de uma solução
+                        devidamente adequada.
+                      </p>
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
+                        A equipe de advogados lideradas pelo Dr. Tiago Lenoir, é
+                        extremamente qualificada.
+                      </p>
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
+                        Recomendo.
                       </p>
                     </div>
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-stone-600 sm:mt-6">
-                    &mdash; Client 1
+                    &mdash; Jefferson de Paula
                   </footer>
                 </blockquote>
               </SwiperSlide>
@@ -162,18 +170,14 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-stone-800 sm:text-3xl">
-                        Cliente 2
-                      </p>
-
                       <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
-                        Depoimento Cliente 2
+                        Excelente profissional, exímio criminalista.
                       </p>
                     </div>
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-stone-600 sm:mt-6">
-                    &mdash; Cliente 2
+                    &mdash; Felipe Carmargos
                   </footer>
                 </blockquote>
               </SwiperSlide>
@@ -229,18 +233,19 @@ export default function GoogleBusiness() {
                     </div>
 
                     <div className="mt-4">
-                      <p className="text-2xl font-bold text-stone-800 sm:text-3xl">
-                        Cliente 3
-                      </p>
-
                       <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
-                        Depoimento Cliente 3
+                        Equipe bastante Profissional competente, com experiência
+                        internacional.
+                      </p>
+                      <p className="mt-4 leading-relaxed font-sans text-lg text-stone-950">
+                        Sempre atendem minhas demandas de meus familiares no
+                        Brasil e em Portugal.
                       </p>
                     </div>
                   </div>
 
                   <footer className="mt-4 text-sm font-medium text-stone-600 sm:mt-6">
-                    &mdash; Cliente 3
+                    &mdash; Gustavo Marques
                   </footer>
                 </blockquote>
               </SwiperSlide>
