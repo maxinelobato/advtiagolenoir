@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,8 @@ export default function RootLayout({
         name="facebook-domain-verification"
         content="0pp7qrk8a62xbewr980vkh2xrevbua"
       /> */}
-      <Script
+      <Suspense>
+        <Script
           id="gtag-base"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
@@ -35,9 +37,11 @@ export default function RootLayout({
           `,
           }}
         ></Script>
+      </Suspense>
       <body className={inter.className}>
         {children}
-        <noscript>
+        <Suspense>
+          <noscript>
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=GTM-PLMR26DV`}
               height="0"
@@ -45,6 +49,7 @@ export default function RootLayout({
               style={{ display: "none", visibility: "hidden" }}
             />
           </noscript>
+        </Suspense>
       </body>
     </html>
   );
