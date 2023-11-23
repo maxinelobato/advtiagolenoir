@@ -18,6 +18,7 @@ export default function AboutTiago() {
           <Image
             className="object-cover w-full h-56 rounded-xl shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             alt="Tiago About"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={tiago}
             width={600}
             height={720}

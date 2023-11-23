@@ -68,6 +68,7 @@ export default function HowWeHelp() {
                         className="h-56 w-full rounded-xl object-cover shadow-2xl transition hover:grayscale-[100%]"
                         width={300}
                         height={300}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         loading="lazy"
                       />
                     </figure>

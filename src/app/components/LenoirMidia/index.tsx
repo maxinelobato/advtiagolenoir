@@ -63,6 +63,7 @@ export default function LenoirMidia() {
                       className="h-auto w-full object-cover"
                       width={600}
                       height={600}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       loading="lazy"
                     />
                     <div className="p-4 sm:p-6">
