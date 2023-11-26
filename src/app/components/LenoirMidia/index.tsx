@@ -64,7 +64,7 @@ export default function LenoirMidia() {
                       width={600}
                       height={600}
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      loading="lazy"
+                      rel="preload"
                     />
                     <div className="p-4 sm:p-6">
                       <time

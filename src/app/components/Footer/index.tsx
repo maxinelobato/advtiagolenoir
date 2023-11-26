@@ -33,6 +33,7 @@ export default function Footer() {
             <div>
               <div className="flex justify-center lg:justify-start">
                 <Image
+                  rel="preload"
                   className="w-48 md:w-auto lg:w-72"
                   src={lenoir}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -109,7 +110,7 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
-                      <a
+                        <a
                           rel="preload"
                           href="https://maps.app.goo.gl/3eLvjrFsf51J96TD7"
                           style={{ textDecoration: "none" }}

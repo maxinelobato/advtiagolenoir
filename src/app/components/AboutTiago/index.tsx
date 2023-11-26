@@ -16,13 +16,13 @@ export default function AboutTiago() {
             <path d="M50 0H100L50 100H0L50 0Z" />
           </svg>
           <Image
+            rel="preload"
             className="object-cover w-full h-56 rounded-xl shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
             alt="Tiago About"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             src={tiago}
             width={600}
             height={720}
-            loading="lazy"
           />
         </div>
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">

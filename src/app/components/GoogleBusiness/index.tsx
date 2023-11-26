@@ -28,7 +28,7 @@ export default function GoogleBusiness() {
                 alt="Imagem"
                 width={300}
                 height={300}
-                loading="lazy"
+                rel="preload"
                 className="w-28 h-28 drop-shadow-lg"
               />
             </div>
