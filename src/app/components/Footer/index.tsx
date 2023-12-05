@@ -110,15 +110,7 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-white">
-                        <a
-                          rel="preload"
-                          href="https://maps.app.goo.gl/3eLvjrFsf51J96TD7"
-                          style={{ textDecoration: "none" }}
-                          target="_blank"
-                          aria-label="Endereço Atendimento Presencial"
-                        >
-                          Nossa localização
-                        </a>
+                        Atendimento em Todo o Brasil
                       </address>
                     </li>
                   </ul>
