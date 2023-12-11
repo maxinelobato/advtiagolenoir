@@ -118,11 +118,23 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
-          <p className="mt-20 text-center text-sm text-white">
-            Lenoir Advogados Associados &copy; 2023. Todos os direitos
-            reservados.
-          </p>
+        </div>
+        <div className="bg-zinc-900">
+          <div className="pt-10 max-w-5xl mx-auto p-4">
+            <p className="text-center text-sm text-white">
+              Este site não faz parte do Google nem do Facebook ou do Facebook
+              Inc. Além disso, não oferecemos nenhum tipo de serviço oficial do
+              governo, NÃO praticamos fraude, não somos uma empresa que vende
+              criptoativos ou qualquer outro serviço.
+            </p>
+            <p className="text-center text-sm text-white">
+              Essa empresa trabalha exclusivamente com serviços jurídicos.
+            </p>
+            <p className="pt-10 pb-5 text-center text-sm text-white">
+              Lenoir Advogados Associados &copy; 2023. Todos os direitos
+              reservados.
+            </p>
+          </div>
         </div>
       </footer>
     </>
